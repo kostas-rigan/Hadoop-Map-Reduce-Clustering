@@ -6,9 +6,14 @@ import json
 import numpy as np
 import pandas as pd
 
-with open('config.json', 'r') as f:
-    json_d = json.load(f)
-centers = [tuple(json_d['center1']), tuple(json_d['center2']), tuple(json_d['center3'])]
+# Load the centers
+centers = []
+with open('temp/centers.txt', 'r') as f:
+    for line in f.readlines():
+        xy = line.split(',')
+        x = float(xy[0])
+        y = float(xy[1])
+        centers.append((x, y))
 
 points = pd.read_csv('data.txt')
 col_to_center = {}
