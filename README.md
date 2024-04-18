@@ -1,15 +1,18 @@
-<h1>Hadoop-Map-Reduce-Clustering</h1>
+<h1>MapReduce Clustering</h1>
 
 # Contents
 * [Description](#Description)
+    * [Overview](#Overview)
+    * [Files](#Files)
+    * [Usage](#Usage)
 * [Guidelines](#Guidelines)
 * [Authors](#Authors)
 
 # Description <a class="anchor" id="Description"></a>
-## Overview
-This project implements a map-reduce clustering algorithm using Python scripts (`mapper.py` and `reducer.py`) controlled by a PowerShell script (`map_reduce_control.ps1`). Additionally, a convergence checker script (`checker.py`) is provided to verify convergence of the clustering algorithm.
+## Overview <a class="anchor" id="Overview"></a>
+This project implements a map-reduce clustering algorithm using Python scripts (`mapper.py` and `reducer.py`) controlled by a PowerShell script (`run.ps1`). Additionally, a convergence checker script (`checker.py`) is provided to verify convergence of the clustering algorithm.
 
-## Files
+## Files <a class="anchor" id="Files"></a>
 
 ### 1. `mapper.py`
 - **Purpose:** Performs the mapping step in the map-reduce clustering algorithm.
@@ -42,7 +45,7 @@ This project implements a map-reduce clustering algorithm using Python scripts (
   - Determines convergence based on a specified tolerance level.
   - Prints "Converged" or "Not Converged" accordingly.
 
-## Usage
+## Usage <a class="anchor" id="Usage"></a>
 1. Place `mapper.py`, `reducer.py`, `checker.py`, `map_reduce_control.ps1`, `centers.txt`, and `data.txt` in the same directory.
 2. Run `map_reduce_control.ps1` using PowerShell.
 3. Monitor the output for convergence status.
