@@ -1,12 +1,17 @@
 <h1>MapReduce Clustering</h1>
 
 # Contents
-* [Description](#Description)
-    * [Overview](#Overview)
-    * [Files](#Files)
-    * [Usage](#Usage)
-* [Guidelines](#Guidelines)
-* [Authors](#Authors)
+- [Contents](#contents)
+- [Description ](#description-)
+  - [Overview ](#overview-)
+  - [Files ](#files-)
+    - [1. `mapper.py`](#1-mapperpy)
+    - [2. `reducer.py`](#2-reducerpy)
+    - [3. `run.ps1`](#3-runps1)
+    - [4. `checker.py`](#4-checkerpy)
+  - [Usage ](#usage-)
+- [Guidelines](#guidelines)
+- [Authors](#authors)
 
 # Description <a class="anchor" id="Description"></a>
 ## Overview <a class="anchor" id="Overview"></a>
@@ -58,7 +63,7 @@ This project implements a map-reduce clustering algorithm using Python scripts (
 > Konstantinos Riganas, Student<br />
 > Department of Management Science and Technology <br />
 > Athens University of Economics and Business <br />
-> t8200120@aueb.gr
+> t8200145@aueb.gr
 
 > Nikolaos Nikolaidis, Student<br />
 > Department of Management Science and Technology <br />

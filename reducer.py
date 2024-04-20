@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 """reducer.py"""
 
+__authors__ = 'Nikolaos Nikolaidis and Konstantinos Riganas'
+
 import sys
 import pandas as pd
 

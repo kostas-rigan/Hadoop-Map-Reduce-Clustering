@@ -1,3 +1,5 @@
+__authors__ = 'Nikolaos Nikolaidis and Konstantinos Riganas'
+
 import numpy as np
 import pandas as pd
 from random import randrange

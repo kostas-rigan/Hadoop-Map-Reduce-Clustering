@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 """mapper.py"""
 
+__authors__ = 'Nikolaos Nikolaidis and Konstantinos Riganas'
+
 import sys
 import json
 import numpy as np

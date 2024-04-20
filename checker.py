@@ -1,5 +1,7 @@
 # checker.py
 
+__authors__ = 'Nikolaos Nikolaidis and Konstantinos Riganas'
+
 def check_convergence(old_centers_file, new_centers_file, tolerance=0.0001):
     with open(old_centers_file, 'r') as f_old, open(new_centers_file, 'r') as f_new:
         old_centers = [line.strip().split(',') for line in f_old if line.strip()]
