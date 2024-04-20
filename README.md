@@ -2,6 +2,8 @@
 
 # Contents
 - [Contents](#contents)
+- [Authors](#authors)
+- [Guidelines](#guidelines)
 - [Description ](#description-)
   - [Overview ](#overview-)
   - [Files ](#files-)
@@ -10,8 +12,20 @@
     - [3. `run.ps1`](#3-runps1)
     - [4. `checker.py`](#4-checkerpy)
   - [Usage ](#usage-)
-- [Guidelines](#guidelines)
-- [Authors](#authors)
+
+# Authors<a class="anchor" id="Authors"></a>
+> Konstantinos Riganas, Student<br />
+> Department of Management Science and Technology <br />
+> Athens University of Economics and Business <br />
+> t8200145@aueb.gr
+
+> Nikolaos Nikolaidis, Student<br />
+> Department of Management Science and Technology <br />
+> Athens University of Economics and Business <br />
+> t8200120@aueb.gr
+
+# Guidelines<a class="anchor" id="Guidelines"></a>
+- Execute the command `run.ps1` on a PowerShell
 
 # Description <a class="anchor" id="Description"></a>
 ## Overview <a class="anchor" id="Overview"></a>
@@ -54,18 +68,3 @@ This project implements a map-reduce clustering algorithm using Python scripts (
 1. Place `mapper.py`, `reducer.py`, `checker.py`, `map_reduce_control.ps1`, `centers.txt`, and `data.txt` in the same directory.
 2. Run `map_reduce_control.ps1` using PowerShell.
 3. Monitor the output for convergence status.
-
-
-# Guidelines<a class="anchor" id="Guidelines"></a>
-- Execute the command `run.ps1` on a PowerShell
-
-# Authors<a class="anchor" id="Authors"></a>
-> Konstantinos Riganas, Student<br />
-> Department of Management Science and Technology <br />
-> Athens University of Economics and Business <br />
-> t8200145@aueb.gr
-
-> Nikolaos Nikolaidis, Student<br />
-> Department of Management Science and Technology <br />
-> Athens University of Economics and Business <br />
-> t8200120@aueb.gr
