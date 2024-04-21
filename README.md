@@ -25,7 +25,9 @@
 > t8200120@aueb.gr
 
 # Guidelines<a class="anchor" id="Guidelines"></a>
-- Execute the command `run.ps1` on a PowerShell
+- Execute the commands:
+  * `python generator.py`
+  * `run.ps1` on a PowerShell
 
 # Description <a class="anchor" id="Description"></a>
 ## Overview <a class="anchor" id="Overview"></a>
